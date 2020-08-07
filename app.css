@@ -2,10 +2,16 @@
 
 }
 
+#mainBody {
+  background-image: url(imgs/webb.png);
+}
+
 #warBody {
-  background: url(imgs/war-body-background.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
+  background: url(imgs/webb.png); /*url(imgs/war-body-background.jpg);*/
+}
+
+.myNavBg {
+  background: linear-gradient(0.25turn, lightblue, #ebf8e1, lightblue);
 }
 
 .brandText {
@@ -32,14 +38,14 @@
 }
 
 .fluBg-light {
-  background-color: rgba(247, 248, 255, .4);
+  background-color: rgba(247, 248, 255, .74);
 }
 
 .heading {
   font-family: 'Bitter', serif;
   font-weight: 900;
   font-size: 1.9rem;
-  color: rgb(252, 56, 66);
+  color: rgb(202, 56, 66);
   text-shadow: 1px 1px 2px black;
   margin-top: 1.1rem;
   margin-bottom: 0;
@@ -54,8 +60,7 @@
   height: 106px;
   width: 73px;
   overflow: hidden;
-  margin: 0 auto;
-  display: table-cell;
+  margin: 0 0;
 }
 .roster {
   background-image: url(imgs/roster.png);
