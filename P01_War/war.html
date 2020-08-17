@@ -10,10 +10,13 @@
 
     <!-- My Own Stylesheet -->
     <link rel="stylesheet" href="../app.css">
+    <link rel="stylesheet" href="../roster.css">
     
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Lemonada:wght@400;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@400;500;600;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
 
     <!-- My Own Font Awesome CDN -->
     <script src="https://kit.fontawesome.com/c7dc54704a.js" crossorigin="anonymous"></script>
@@ -27,20 +30,19 @@
     <nav class="navbar navbar-expand-md navbar-dark myNavBg">
       <a class="navbar-brand" href="../index.html">
         <i class="fas fa-crown brandText deep"></i>
-        <span class="brandText deep">Charlie</span>
+        <span class="brandText deep">KoRSaN</span>
       </a>
 
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-
       <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
             <a class="nav-link deep" href="../index.html">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link deep" href="../characters.html">Characters</a>
+            <a class="nav-link deep" href="../P02_Characters/characters.html">Characters</a>
           </li>
           <li class="nav-item active">
             <a class="nav-link deep" href="#">War <span class="sr-only">(current)</span></a>
@@ -51,13 +53,13 @@
         </ul>
         <form class="form-inline my-2 my-lg-0">
           <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Go</button>
         </form>
       </div>
     </nav>
-
+    <!-- Main section inside the container -->
     <section id="vsSection" class="container fluBg-light">
-      <div class="row">
+      <div class="row mb-3"> <!-- headings row -->
         <div class="col-6">
           <p class="brandText text-center heading">USE</p>
           <hr class="hrUnderHeading">
@@ -67,24 +69,213 @@
           <hr class="hrUnderHeading">
         </div>
       </div>
-      <div class="row">
-        <div class="col-6">
+      <div class="row justify-content-center"> <!-- 1st row - f4 vs. asgardians -->
+        <div class="col-5">
           <div class="row justify-content-center">
-            <div class="portraitWrapper roster rosterSymbioteSpiderMan"></div>
-            <div class="portraitWrapper roster rosterSymbioteSpiderMan"></div>
-            <div class="portraitWrapper roster rosterSymbioteSpiderMan"></div>
-            <div class="portraitWrapper roster rosterSymbioteSpiderMan"></div>
-            <div class="portraitWrapper roster rosterSymbioteSpiderMan"></div>
+            <!-- f4 -->
+            <div class="portraitWrapper roster rosterHumanTorch"></div>
+            <div class="portraitWrapper roster rosterInvisibleWoman"></div>
+            <div class="portraitWrapper roster rosterNamor"></div>
+            <div class="portraitWrapper roster rosterMrFantastic darkened"></div>
+            <div class="portraitWrapper roster rosterDrax"></div>
+            <div class="portraitWrapper roster rosterTheThing"></div>
           </div>
         </div>
-        <div class="col-6">
+        <div class="col-1 text-center">
+          <i class="fas fa-fist-raised punchAcross"></i>
+          <p class="text-center punchAcrossText">PUNCH ACROSS</p>
+        </div>
+        <div class="col-5">
           <div class="row justify-content-center">
-            <div class="portraitWrapper roster rosterSymbioteSpiderMan"></div>
-            <div class="portraitWrapper roster rosterSymbioteSpiderMan"></div>
-            <div class="portraitWrapper roster rosterSymbioteSpiderMan"></div>
-            <div class="portraitWrapper roster rosterSymbioteSpiderMan"></div>
-            <div class="portraitWrapper roster rosterSymbioteSpiderMan"></div>
+            <!-- asgardians -->
+            <div class="portraitWrapper roster rosterSif"></div>
+            <div class="portraitWrapper roster rosterHeimdall"></div>
+            <div class="portraitWrapper roster rosterThor"></div>
+            <div class="portraitWrapper roster rosterHela"></div>
+            <div class="portraitWrapper roster rosterLoki"></div>
           </div>
+        </div>
+      </div>
+      <div class="row mb-4"> <!-- f4 vs. asgardians team names -->
+        <div class="col-6">
+          <p class="text-center teamName">FANTASTIC 4</p>
+          <p class="text-center explanation">Drax insted of MrFantastic is optional but eases the win</p>
+        </div>
+        <div class="col-6">
+          <p class="text-center teamName">ASGARDIANS</p>
+          <p class="text-center explanation">Try to kill 'Thor' first, then 'Hela' or 'Loki'</p>
+        </div>
+      </div>
+      <div class="row justify-content-center mt-5"> <!-- 2nd row - tronfenders vs. marauders -->
+        <div class="col-5">
+          <div class="row justify-content-center">
+            <!-- tronfenders -->
+            <div class="portraitWrapper roster rosterIronFist"></div>
+            <div class="portraitWrapper roster rosterUltron"></div>
+            <div class="portraitWrapper roster rosterDaredevil"></div>
+            <div class="portraitWrapper roster rosterJessicaJones"></div>
+            <div class="portraitWrapper roster rosterPunisher"></div>
+          </div>
+        </div>
+        <div class="col-1 text-center">
+          <i class="fas fa-fist-raised punchUp"></i>
+          <p class="text-center punchUpText">PUNCH UP</p>
+        </div>
+        <div class="col-5">
+          <div class="row justify-content-center">
+            <!-- marauders -->
+            <div class="portraitWrapper roster rosterEmmaFrost"></div>
+            <div class="portraitWrapper roster rosterMystique"></div>
+            <div class="portraitWrapper roster rosterMrSinister"></div>
+            <div class="portraitWrapper roster rosterSabretooth"></div>
+            <div class="portraitWrapper roster rosterStryfe"></div>
+          </div>
+        </div>
+      </div>
+      <div class="row mb-4"> <!-- tronfenders vs. marauders team names -->
+        <div class="col-6">
+          <p class="text-center teamName">TRONFENDERS</p>
+        </div>
+        <div class="col-6">
+          <p class="text-center teamName">MARAUDERS</p>
+          <p class="text-center explanation">Kill 'Stryfe' first, then 'Mr.Sinister'</p>
+        </div>
+      </div>
+      <div class="row justify-content-center mt-5"> <!-- 3rd row - brotherhood2 vs. mercs -->
+        <div class="col-5">
+          <div class="row justify-content-center">
+            <!-- brotherhood2 -->
+            <div class="portraitWrapper roster rosterJuggernaut"></div>
+            <div class="portraitWrapper roster rosterBlob"></div>
+            <div class="portraitWrapper roster rosterMagneto"></div>
+            <div class="portraitWrapper roster rosterPyro"></div>
+            <div class="portraitWrapper roster rosterToad"></div>
+          </div>
+        </div>
+        <div class="col-1 text-center">
+          <i class="fas fa-fist-raised punchDown"></i>
+          <p class="text-center punchDownText">PUNCH DOWN</p>
+        </div>
+        <div class="col-5">
+          <div class="row justify-content-center">
+            <!-- mercs -->
+            <div class="portraitWrapper roster rosterBullseye"></div>
+            <div class="portraitWrapper roster rosterHulk blank-hero"></div>
+            <div class="portraitWrapper roster rosterTaskmaster"></div>
+            <div class="portraitWrapper roster rosterMercRiotGuard"></div>
+            <div class="portraitWrapper roster rosterMercLt"></div>
+          </div>
+        </div>
+      </div>
+      <div class="row mb-4 mt-0"> <!-- brotherhood2 vs. mercs team names -->
+          <div class="col-6">
+            <p class="text-center teamName">BROTHERHOOD v2</p>
+          </div>
+          <div class="col-6">
+            <p class="text-center teamName">MERCS</p>
+            <p class="text-center explanation">Disrupt & kill 'Taskmaster' first</p>
+          </div>
+        </div>
+        <div class="row justify-content-center mt-5"> <!-- 4th row - inhumans vs. hydra -->
+          <div class="col-5">
+            <div class="row justify-content-center">
+            <!-- inhumans -->
+            <div class="portraitWrapper roster rosterQuake"></div>
+            <div class="portraitWrapper roster rosterKarnak"></div>
+            <div class="portraitWrapper roster rosterBlackBolt"></div>
+            <div class="portraitWrapper roster rosterCrystal"></div>
+            <div class="portraitWrapper roster rosterYoYo"></div>
+          </div>
+        </div>
+        <div class="col-1 text-center">
+          <i class="fas fa-fist-raised punchUp"></i>
+          <p class="text-center punchUpText">PUNCH UP</p>
+        </div>
+        <div class="col-5">
+          <div class="row justify-content-center">
+            <!-- hydra -->
+            <div class="portraitWrapper roster rosterHydraSniper"></div>
+            <div class="portraitWrapper roster rosterRedSkull"></div>
+            <div class="portraitWrapper roster rosterHydraScientist"></div>
+            <div class="portraitWrapper roster rosterHydraRifleTrooper"></div>
+            <div class="portraitWrapper roster rosterHydraArmoredGuard"></div>
+          </div>
+        </div>
+      </div>
+      <div class="row mb-4"> <!-- inhumans vs. hydra team names -->
+        <div class="col-6">
+          <p class="text-center teamName">INHUMANS</p>
+        </div>
+        <div class="col-6">
+          <p class="text-center teamName">HYDRA</p>
+        </div>
+      </div>
+      <div class="row justify-content-center mt-5"> <!-- 5th row - powerarmor2 vs. technerva -->
+        <div class="col-5">
+          <div class="row justify-content-center">
+            <!-- powerarmor2 -->
+            <div class="portraitWrapper roster rosterFalcon"></div>
+            <div class="portraitWrapper roster rosterRescue"></div>
+            <div class="portraitWrapper roster rosterIronheart"></div>
+            <div class="portraitWrapper roster rosterWarMachine"></div>
+            <div class="portraitWrapper roster rosterIronMan"></div>
+          </div>
+        </div>
+        <div class="col-1 text-center">
+          <i class="fas fa-fist-raised punchUp"></i>
+          <p class="text-center punchUpText">PUNCH UP</p>
+        </div>
+        <div class="col-5">
+          <div class="row justify-content-center">
+            <!-- technerva -->
+            <div class="portraitWrapper roster rosterGroot"></div>
+            <div class="portraitWrapper roster rosterVision"></div>
+            <div class="portraitWrapper roster rosterMinnErva"></div>
+            <div class="portraitWrapper roster rosterRocketRackoon"></div>
+            <div class="portraitWrapper roster rosterStarLord"></div>
+          </div>
+        </div>
+      </div>
+      <div class="row mb-4"> <!-- powerarmor2 vs technerva team names -->
+        <div class="col-6">
+          <p class="text-center teamName">POWER ARMOR v2</p>
+        </div>
+        <div class="col-6">
+          <p class="text-center teamName">TECHNERVA</p>
+        </div>
+      </div>
+      <div class="row justify-content-center mt-5"> <!-- 6th row - xmen vs. coulson shield -->
+        <div class="col-5">
+          <div class="row justify-content-center">
+            <!-- xmen -->
+            <div class="portraitWrapper roster rosterWolverine"></div>
+            <div class="portraitWrapper roster rosterCyclops"></div>
+            <div class="portraitWrapper roster rosterPhoenix"></div>
+            <div class="portraitWrapper roster rosterPsylocke"></div>
+            <div class="portraitWrapper roster rosterColossus"></div>
+          </div>
+        </div>
+        <div class="col-1 text-center">
+          <i class="fas fa-fist-raised punchUp"></i>
+          <p class="text-center punchUpText">PUNCH UP</p>
+        </div>
+        <div class="col-5">
+          <div class="row justify-content-center">
+            <!-- shield coulson -->
+            <div class="portraitWrapper roster rosterShieldAssault"></div>
+            <div class="portraitWrapper roster rosterShieldMedic"></div>
+            <div class="portraitWrapper roster rosterNickFUry"></div>
+            <div class="portraitWrapper roster rosterAgentCoulson"></div>
+            <div class="portraitWrapper roster rosterShieldSecurity"></div>
+          </div>
+        </div>
+      </div>
+      <div class="row"> <!-- xmen vs coulson shield team names -->
+        <div class="col-6">
+          <p class="text-center teamName">X-MEN</p>
+        </div>
+        <div class="col-6">
+          <p class="text-center teamName">COULSON SHIELD</p>
         </div>
       </div>
     </section>
