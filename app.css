@@ -2,6 +2,12 @@
 
 }
 
+@media(max-width:590px) {
+
+  .weakenOnMobile{font-weight: 400;}
+
+}
+
 .myBody {
   background-image: url(imgs/ep_naturalblack.png);
 }
@@ -89,6 +95,18 @@
   height: auto;
 }
 
+.legendary {
+
+}
+
+.notPlayable {
+  
+}
+
+.toonLogoDiv {
+  max-width: 74px;
+}
+
 .roster {
   background-image: url(imgs/roster.png);
 }
@@ -110,27 +128,30 @@
 }
 
 .punchUpText {
-  font-family: 'Russo One', sans-serif;
+  font-family: 'Kufam', cursive;
   font-weight: 700;
   font-size: 1.1rem;
   line-height: 1.4rem;
   color: rgb(15, 230, 7);
+  margin: 0;
 }
 
 .punchAcrossText {
-  font-family: 'Russo One', sans-serif;
+  font-family: 'Kufam', cursive;
   font-weight: 700;
-  font-size: 1.1rem;
-  line-height: 1.4rem;
+  font-size: 1.1vw;
+  /*line-height: 1.4rem;*/
   color: rgb(255, 153, 0);
+  margin: 0;
 }
 
 .punchDownText {
-  font-family: 'Russo One', sans-serif;
+  font-family: 'Kufam', cursive;
   font-weight: 700;
   font-size: 1.1rem;
   line-height: 1.4rem;
   color: rgb(255, 0, 0);
+  margin: 0;
 }
 
 .punchDown {
@@ -161,7 +182,7 @@
 .punchAcross {
   font-family: 'Lemonada', cursive;
   font-weight: 700;
-  font-size: 3.5rem;
+  font-size: 3.5vw;
   color: rgb(255, 153, 0);
   /* rotate: */
   transform: rotate(90deg);
