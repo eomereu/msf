@@ -1,5 +1,7 @@
-.modifiedMenuText {
-
+/* border inside border */
+.doubleBorder {
+  border: 1px dashed blue; 
+  outline: 1px dashed purple;
 }
 
 .myBody {
@@ -108,19 +110,15 @@
   height: auto;
 }
 
-.legendary {
+.legendary {}
 
-}
-
-.notPlayable {
-  
-}
+.notPlayable {}
 
 .toonLogoDiv {
   max-width: 74px;
 }
 .hugeToonLogoDiv {
-  width: 370px;
+  max-width: 390px;
 }
 
 .roster {
