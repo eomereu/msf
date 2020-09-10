@@ -101,8 +101,8 @@
 
       <!-- AIMTRON VS ASGARDIANS -->
       <!-- form1 (5 vs 5) -->
-      <div class="row justify-content-center align-items-center d-none d-md-flex"> <!-- 1st row - f4 vs. asgardians -->
-        <!-- f4 -->
+      <div class="row justify-content-center align-items-center d-none d-md-flex"> <!-- 1st row - aimtron vs. asgardians -->
+        <!-- aimtron -->
         <div class="col-5 pl-0 pr-0">
           <div class="row justify-content-center align-items-center">
             <div class="col-2 pl-0 pr-0 toonLogoDiv">
@@ -131,19 +131,19 @@
         <!-- asgardians -->
         <div class="col-5 pl-0 pr-0">
           <div class="row justify-content-center align-items-center">
-            <div class="col-2 pl-0 pr-0 toonLogoDiv">
+            <div class="col-2 pl-0 pr-0 toonLogoDiv" id="aimtronVsSlot0">
               <img src="../imgs/toon_pngs/sif.png" class="resizable" id="sif" alt="sif">
             </div>
-            <div class="col-2 pl-0 pr-0 toonLogoDiv">
+            <div class="col-2 pl-0 pr-0 toonLogoDiv" id="aimtronVsSlot1">
               <img src="../imgs/toon_pngs/heimdall.png" class="resizable" id="heimdall" alt="heimdall">
             </div>
-            <div class="col-2 pl-0 pr-0 toonLogoDiv">
+            <div class="col-2 pl-0 pr-0 toonLogoDiv" id="aimtronVsSlot2">
               <img src="../imgs/toon_pngs/thor.png" class="resizable" id="thor" alt="thor">
             </div>
-            <div class="col-2 pl-0 pr-0 toonLogoDiv">
+            <div class="col-2 pl-0 pr-0 toonLogoDiv" id="aimtronVsSlot3">
               <img src="../imgs/toon_pngs/hela.png" class="resizable" id="hela" alt="hela">
             </div>
-            <div class="col-2 pl-0 pr-0 toonLogoDiv">
+            <div class="col-2 pl-0 pr-0 toonLogoDiv" id="aimtronVsSlot4">
               <img src="../imgs/toon_pngs/loki.png" class="resizable" id="loki" alt="loki">
             </div>
           </div>
@@ -170,10 +170,10 @@
         <!-- asgardians[2] -->
         <div class="col-5 pl-0 pr-0">
           <div class="row justify-content-center align-items-center">
-            <div class="col-3 pl-0 pr-0 toonLogoDiv">
+            <div class="col-3 pl-0 pr-0 toonLogoDiv" id="_aimtronVsSlot1">
               <img src="../imgs/toon_pngs/heimdall.png" class="resizable" id="heimdall" alt="heimdall">
             </div>
-            <div class="col-3 pl-0 pr-0 toonLogoDiv">
+            <div class="col-3 pl-0 pr-0 toonLogoDiv" id="_aimtronVsSlot3">
               <img src="../imgs/toon_pngs/hela.png" class="resizable" id="hela" alt="hela">
             </div>
           </div>
@@ -202,13 +202,13 @@
         <!-- asgardians[3] -->
         <div class="col-5 pl-0 pr-0">
           <div class="row justify-content-center align-items-center">
-            <div class="col-3 pl-0 pr-0 toonLogoDiv">
+            <div class="col-3 pl-0 pr-0 toonLogoDiv" id="_aimtronVsSlot0">
               <img src="../imgs/toon_pngs/sif.png" class="resizable" id="sif" alt="sif">
             </div>
-            <div class="col-3 pl-0 pr-0 toonLogoDiv">
+            <div class="col-3 pl-0 pr-0 toonLogoDiv" id="_aimtronVsSlot2">
               <img src="../imgs/toon_pngs/thor.png" class="resizable" id="thor" alt="thor">
             </div>
-            <div class="col-3 pl-0 pr-0 toonLogoDiv">
+            <div class="col-3 pl-0 pr-0 toonLogoDiv" id="_aimtronVsSlot4">
               <img src="../imgs/toon_pngs/loki.png" class="resizable" id="loki" alt="loki">
             </div>
           </div>
@@ -220,12 +220,16 @@
         <div class="col-5">
           <p class="text-center teamName">AIMTRON</p>
         </div>
-        <div class="col-1">
-          <!-- BLANK COLUMN FOR ALIGNING -->
-        </div>
+        <div class="col-1"><!-- BLANK COLUMN FOR ALIGNING --></div>
         <div class="col-5">
-          <p class="text-center teamName">ASGARDIANS</p>
-          <p class="text-center explanation">Try to kill 'Thor' first, then 'Hela' or 'Loki'</p>
+          <p class="text-center teamName" id="aimtronVsTeamName">ASGARDIANS</p>
+          <div class="select">
+            <select name="aimtronVsSelect" id="aimtronVsSelect">
+              <option value="asgardians">Asgardians (Recommended)</option>
+              <option value="brotherhood 2.0">Brotherhood 2.0</option>
+            </select>
+          </div>
+          <p class="text-center explanation" id="aimtronVsExp">Try to kill 'Thor' first, then 'Hela' or 'Loki'</p>
         </div>
       </div><br>
       <!---------------------------------------->
@@ -355,8 +359,16 @@
           <!-- BLANK COLUMN FOR ALIGNING -->
         </div>
         <div class="col-5">
-          <p class="text-center teamName">EM-MARAUDERS</p>
-          <p class="text-center explanation">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, eum.</p>
+          <p class="text-center teamName" id="xforceVsTeamName">EM-MARAUDERS</p>
+          <div class="select">
+            <select name="aimtronVsSelect" id="xforceVsSelect">
+              <option value="em-marauders">Em-Marauders (Recommended)</option>
+              <option value="asgardians">Asgardians</option>
+              <option value="mercs">Mercs</option>
+              <option value="black order">Black Order</option>
+            </select>
+          </div>
+          <p class="text-center explanation" id="xforceVsExp">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, eum.</p>
         </div>
       </div><br>
       <!---------------------------------------->
