@@ -303,146 +303,146 @@ function initialize(){
   // Aimtron:
   team = document.querySelectorAll(".initializeAsAimTron");
   _team = document.querySelectorAll("._initializeAsAimTron");
-  team[0].innerHTML = _team[0].innerHTML = aim_security;
-  team[1].innerHTML = _team[1].innerHTML = aim_assaulter;
-  team[2].innerHTML = _team[2].innerHTML = scientist_supreme;
-  team[3].innerHTML = _team[3].innerHTML = ultron;
+  team[0].innerHTML = _team[2].innerHTML = aim_security;
+  team[1].innerHTML = _team[0].innerHTML = aim_assaulter;
+  team[2].innerHTML = _team[3].innerHTML = scientist_supreme;
+  team[3].innerHTML = _team[1].innerHTML = ultron;
   team[4].innerHTML = _team[4].innerHTML = graviton;
   // Asgardians:
   team = document.querySelectorAll(".initializeAsAsgardians");
   _team = document.querySelectorAll("._initializeAsAsgardians");
-  team[0].innerHTML = _team[0].innerHTML = sif;
-  team[1].innerHTML = _team[1].innerHTML = heimdall;
-  team[2].innerHTML = _team[2].innerHTML = thor;
-  team[3].innerHTML = _team[3].innerHTML = hela;
+  team[0].innerHTML = _team[2].innerHTML = sif;
+  team[1].innerHTML = _team[0].innerHTML = heimdall;
+  team[2].innerHTML = _team[3].innerHTML = thor;
+  team[3].innerHTML = _team[1].innerHTML = hela;
   team[4].innerHTML = _team[4].innerHTML = loki;
   // XForce:
   team = document.querySelectorAll(".initializeAsXForce");
   _team = document.querySelectorAll("._initializeAsXForce");
-  team[0].innerHTML = _team[0].innerHTML = domino;
-  team[1].innerHTML = _team[1].innerHTML = negasonic;
-  team[2].innerHTML = _team[2].innerHTML = x_23;
-  team[3].innerHTML = _team[3].innerHTML = deadpool;
+  team[0].innerHTML = _team[2].innerHTML = domino;
+  team[1].innerHTML = _team[0].innerHTML = negasonic;
+  team[2].innerHTML = _team[3].innerHTML = x_23;
+  team[3].innerHTML = _team[1].innerHTML = deadpool;
   team[4].innerHTML = _team[4].innerHTML = cable;
   // Em-Marauders:
   team = document.querySelectorAll(".initializeAsEmMarauders");
   _team = document.querySelectorAll("._initializeAsEmMarauders");
-  team[0].innerHTML = _team[0].innerHTML = sabretooth;
-  team[1].innerHTML = _team[1].innerHTML = emma_frost;
-  team[2].innerHTML = _team[2].innerHTML = mr_sinister;
-  team[3].innerHTML = _team[3].innerHTML = mystique;
+  team[0].innerHTML = _team[2].innerHTML = sabretooth;
+  team[1].innerHTML = _team[0].innerHTML = emma_frost;
+  team[2].innerHTML = _team[3].innerHTML = mr_sinister;
+  team[3].innerHTML = _team[1].innerHTML = mystique;
   team[4].innerHTML = _team[4].innerHTML = stryfe;
   // Brotherhood 2.0:
   team = document.querySelectorAll(".initializeAsBH20");
   _team = document.querySelectorAll("._initializeAsBH20");
-  team[0].innerHTML = _team[0].innerHTML = magneto;
-  team[1].innerHTML = _team[1].innerHTML = pyro;
-  team[2].innerHTML = _team[2].innerHTML = toad;
-  team[3].innerHTML = _team[3].innerHTML = blob;
+  team[0].innerHTML = _team[2].innerHTML = magneto;
+  team[1].innerHTML = _team[0].innerHTML = pyro;
+  team[2].innerHTML = _team[3].innerHTML = toad;
+  team[3].innerHTML = _team[1].innerHTML = blob;
   team[4].innerHTML = _team[4].innerHTML = juggernaut;
   // Mercs:
   team = document.querySelectorAll(".initializeAsMercs");
   _team = document.querySelectorAll("._initializeAsMercs");
-  team[0].innerHTML = _team[0].innerHTML = bullseye;
-  team[1].innerHTML = _team[1].innerHTML = blank_hero;
-  team[2].innerHTML = _team[2].innerHTML = taskmaster;
-  team[3].innerHTML = _team[3].innerHTML = merc_riot_guard;
+  team[0].innerHTML = _team[2].innerHTML = bullseye;
+  team[1].innerHTML = _team[0].innerHTML = blank_hero;
+  team[2].innerHTML = _team[3].innerHTML = taskmaster;
+  team[3].innerHTML = _team[1].innerHTML = merc_riot_guard;
   team[4].innerHTML = _team[4].innerHTML = merc_lt;
   // X-Men Dual:
   team = document.querySelectorAll(".initializeAsXMenDual");
   _team = document.querySelectorAll("._initializeAsXMenDual");
-  team[0].innerHTML = _team[0].innerHTML = blank_hero;
-  team[1].innerHTML = _team[1].innerHTML = blank_hero;
-  team[2].innerHTML = _team[2].innerHTML = phoenix;
-  team[3].innerHTML = _team[3].innerHTML = blank_hero;
+  team[0].innerHTML = _team[2].innerHTML = blank_hero;
+  team[1].innerHTML = _team[0].innerHTML = blank_hero;
+  team[2].innerHTML = _team[3].innerHTML = phoenix;
+  team[3].innerHTML = _team[1].innerHTML = blank_hero;
   team[4].innerHTML = _team[4].innerHTML = colossus;
   // Shield-Coulson
   team = document.querySelectorAll(".initializeAsShieldCoulson");
   _team = document.querySelectorAll("._initializeAsShieldCoulson");
-  team[0].innerHTML = _team[0].innerHTML = shield_medic;
-  team[1].innerHTML = _team[1].innerHTML = shield_assault;
-  team[2].innerHTML = _team[2].innerHTML = nick_fury;
-  team[3].innerHTML = _team[3].innerHTML = agent_coulson;
+  team[0].innerHTML = _team[2].innerHTML = shield_medic;
+  team[1].innerHTML = _team[0].innerHTML = shield_assault;
+  team[2].innerHTML = _team[3].innerHTML = nick_fury;
+  team[3].innerHTML = _team[1].innerHTML = agent_coulson;
   team[4].innerHTML = _team[4].innerHTML = shield_security;
   // Inhumans
   team = document.querySelectorAll(".initializeAsInhumans");
   _team = document.querySelectorAll("._initializeAsInhumans");
-  team[0].innerHTML = _team[0].innerHTML = quake;
-  team[1].innerHTML = _team[1].innerHTML = crystal;
-  team[2].innerHTML = _team[2].innerHTML = black_bolt;
-  team[3].innerHTML = _team[3].innerHTML = karnak;
+  team[0].innerHTML = _team[2].innerHTML = quake;
+  team[1].innerHTML = _team[0].innerHTML = crystal;
+  team[2].innerHTML = _team[3].innerHTML = black_bolt;
+  team[3].innerHTML = _team[1].innerHTML = karnak;
   team[4].innerHTML = _team[4].innerHTML = yoyo;
   // Red-Hydra
   team = document.querySelectorAll(".initializeAsRedHydra");
   _team = document.querySelectorAll("._initializeAsRedHydra");
-  team[0].innerHTML = _team[0].innerHTML = hydra_sniper;
-  team[1].innerHTML = _team[1].innerHTML = red_skull;
-  team[2].innerHTML = _team[2].innerHTML = hydra_scientist;
-  team[3].innerHTML = _team[3].innerHTML = hydra_rifle_trooper;
+  team[0].innerHTML = _team[2].innerHTML = hydra_sniper;
+  team[1].innerHTML = _team[0].innerHTML = red_skull;
+  team[2].innerHTML = _team[3].innerHTML = hydra_scientist;
+  team[3].innerHTML = _team[1].innerHTML = hydra_rifle_trooper;
   team[4].innerHTML = _team[4].innerHTML = hydra_armored_guard;
   // Power Armor 2.0
   team = document.querySelectorAll(".initializeAsPA20");
   _team = document.querySelectorAll("._initializeAsPA20");
-  team[0].innerHTML = _team[0].innerHTML = rescue;
-  team[1].innerHTML = _team[1].innerHTML = falcon;
-  team[2].innerHTML = _team[2].innerHTML = iron_heart;
-  team[3].innerHTML = _team[3].innerHTML = war_machine;
+  team[0].innerHTML = _team[2].innerHTML = rescue;
+  team[1].innerHTML = _team[0].innerHTML = falcon;
+  team[2].innerHTML = _team[3].innerHTML = iron_heart;
+  team[3].innerHTML = _team[1].innerHTML = war_machine;
   team[4].innerHTML = _team[4].innerHTML = iron_man;
   // Guardians / Technerva / BKT (GTB)
   team = document.querySelectorAll(".initializeAsGTB");
   _team = document.querySelectorAll("._initializeAsGTB");
-  team[0].innerHTML = _team[0].innerHTML = groot;
-  team[1].innerHTML = _team[1].innerHTML = drax;
-  team[2].innerHTML = _team[2].innerHTML = mantis;
-  team[3].innerHTML = _team[3].innerHTML = rocket_raccoon;
+  team[0].innerHTML = _team[2].innerHTML = groot;
+  team[1].innerHTML = _team[0].innerHTML = drax;
+  team[2].innerHTML = _team[3].innerHTML = mantis;
+  team[3].innerHTML = _team[1].innerHTML = rocket_raccoon;
   team[4].innerHTML = _team[4].innerHTML = star_lord;/*
   // team
   team = document.querySelectorAll(".initializeAsteam");
   _team = document.querySelectorAll("._initializeAsteam");
-  team[0].innerHTML = _team[0].innerHTML = sif;
-  team[1].innerHTML = _team[1].innerHTML = heimdall;
-  team[2].innerHTML = _team[2].innerHTML = thor;
-  team[3].innerHTML = _team[3].innerHTML = hela;
+  team[0].innerHTML = _team[2].innerHTML = sif;
+  team[1].innerHTML = _team[0].innerHTML = heimdall;
+  team[2].innerHTML = _team[3].innerHTML = thor;
+  team[3].innerHTML = _team[1].innerHTML = hela;
   team[4].innerHTML = _team[4].innerHTML = loki;
   // team
   team = document.querySelectorAll(".initializeAsteam");
   _team = document.querySelectorAll("._initializeAsteam");
-  team[0].innerHTML = _team[0].innerHTML = sif;
-  team[1].innerHTML = _team[1].innerHTML = heimdall;
-  team[2].innerHTML = _team[2].innerHTML = thor;
-  team[3].innerHTML = _team[3].innerHTML = hela;
+  team[0].innerHTML = _team[2].innerHTML = sif;
+  team[1].innerHTML = _team[0].innerHTML = heimdall;
+  team[2].innerHTML = _team[3].innerHTML = thor;
+  team[3].innerHTML = _team[1].innerHTML = hela;
   team[4].innerHTML = _team[4].innerHTML = loki;
   // team
   team = document.querySelectorAll(".initializeAsteam");
   _team = document.querySelectorAll("._initializeAsteam");
-  team[0].innerHTML = _team[0].innerHTML = sif;
-  team[1].innerHTML = _team[1].innerHTML = heimdall;
-  team[2].innerHTML = _team[2].innerHTML = thor;
-  team[3].innerHTML = _team[3].innerHTML = hela;
+  team[0].innerHTML = _team[2].innerHTML = sif;
+  team[1].innerHTML = _team[0].innerHTML = heimdall;
+  team[2].innerHTML = _team[3].innerHTML = thor;
+  team[3].innerHTML = _team[1].innerHTML = hela;
   team[4].innerHTML = _team[4].innerHTML = loki;
   // team
   team = document.querySelectorAll(".initializeAsteam");
   _team = document.querySelectorAll("._initializeAsteam");
-  team[0].innerHTML = _team[0].innerHTML = sif;
-  team[1].innerHTML = _team[1].innerHTML = heimdall;
-  team[2].innerHTML = _team[2].innerHTML = thor;
-  team[3].innerHTML = _team[3].innerHTML = hela;
+  team[0].innerHTML = _team[2].innerHTML = sif;
+  team[1].innerHTML = _team[0].innerHTML = heimdall;
+  team[2].innerHTML = _team[3].innerHTML = thor;
+  team[3].innerHTML = _team[1].innerHTML = hela;
   team[4].innerHTML = _team[4].innerHTML = loki;
   // team
   team = document.querySelectorAll(".initializeAsteam");
   _team = document.querySelectorAll("._initializeAsteam");
-  team[0].innerHTML = _team[0].innerHTML = sif;
-  team[1].innerHTML = _team[1].innerHTML = heimdall;
-  team[2].innerHTML = _team[2].innerHTML = thor;
-  team[3].innerHTML = _team[3].innerHTML = hela;
+  team[0].innerHTML = _team[2].innerHTML = sif;
+  team[1].innerHTML = _team[0].innerHTML = heimdall;
+  team[2].innerHTML = _team[3].innerHTML = thor;
+  team[3].innerHTML = _team[1].innerHTML = hela;
   team[4].innerHTML = _team[4].innerHTML = loki;
   // team
   team = document.querySelectorAll(".initializeAsteam");
   _team = document.querySelectorAll("._initializeAsteam");
-  team[0].innerHTML = _team[0].innerHTML = sif;
-  team[1].innerHTML = _team[1].innerHTML = heimdall;
-  team[2].innerHTML = _team[2].innerHTML = thor;
-  team[3].innerHTML = _team[3].innerHTML = hela;
+  team[0].innerHTML = _team[2].innerHTML = sif;
+  team[1].innerHTML = _team[0].innerHTML = heimdall;
+  team[2].innerHTML = _team[3].innerHTML = thor;
+  team[3].innerHTML = _team[1].innerHTML = hela;
   team[4].innerHTML = _team[4].innerHTML = loki;*/
 }
 
