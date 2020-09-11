@@ -253,8 +253,8 @@ for( var i = 0; i < selects.length; i++){
       case "gtb":
         // Handled above at line 30 due to its exceptional situation
         break;
-      case "":
-        (this.id);
+      case "young-avengers":
+        makeYoungAvengers(this.id);
         break;
       case "":
         (this.id);
@@ -541,4 +541,12 @@ function makeGTB(TeamId){
   document.getElementById(opponent[2]).innerHTML = document.getElementById("_" + opponent[2]).innerHTML = mantis;
   document.getElementById(opponent[3]).innerHTML = document.getElementById("_" + opponent[3]).innerHTML = rocket_raccoon;
   document.getElementById(opponent[4]).innerHTML = document.getElementById("_" + opponent[4]).innerHTML = star_lord;
+}
+function makeYoungAvengers(TeamId){
+  var opponent = opponentIdCreator(TeamId);
+  document.getElementById(opponent[0]).innerHTML = document.getElementById("_" + opponent[0]).innerHTML = ms_marvel;
+  document.getElementById(opponent[1]).innerHTML = document.getElementById("_" + opponent[1]).innerHTML = spider_man;
+  document.getElementById(opponent[2]).innerHTML = document.getElementById("_" + opponent[2]).innerHTML = squirrel_girl;
+  document.getElementById(opponent[3]).innerHTML = document.getElementById("_" + opponent[3]).innerHTML = spider_man_miles;
+  document.getElementById(opponent[4]).innerHTML = document.getElementById("_" + opponent[4]).innerHTML = america_chavez;
 }
